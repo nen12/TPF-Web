@@ -1,6 +1,31 @@
+/*Habillement des éléments de la page.*/
 * {
     text-decoration: none;
     list-style: none;
- 
+    @font-face {
+        font-family: "Christmas Bell";
+        src: url("fonts/Christmas Bell.otf");
+    }
 }
 
+/*Disposition global des éléments de la page.*/
+body {
+    background-color: #660000 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*------------------------------------*/
+    min-width: 450px;
+}
+
+/*Grandeur du label courriel et espacement de l'intérieur.*/
+label {
+    font-size: 1.4rem;
+    margin: auto;
+}
+
+@media screen and (width <= 1000px){
+  label {
+    font-size: 1.1rem;
+  }
+}
