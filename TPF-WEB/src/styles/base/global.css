@@ -2,11 +2,10 @@
 * {
     text-decoration: none;
     list-style: none;
-    @font-face {
-        font-family: "Christmas Bell";
-        src: url("fonts/Christmas Bell.otf");
-    }
+    color: #FFEEDB;
 }
+
+
 
 /*Disposition global des éléments de la page.*/
 body {
