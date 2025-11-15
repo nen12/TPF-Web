@@ -1,0 +1,113 @@
+footer {
+    background-color: #36AB76;
+    width: 100%;
+    height: fit-content;
+}
+
+.bas-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*--------------------------*/
+    gap: 50px;
+}
+
+.contact-bas-page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center; 
+    justify-items: center;
+    text-align: center;
+    color: #F0E5CD;
+    /*--------------------*/
+    gap: 30px;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+    gap: 5px;
+}
+
+/*Habillement et grandeur du champ de saisie.*/
+.champ-texte {
+    background-color: #1F6244;
+    border-color: #F0E5CD;
+    color: #F0E5CD;
+    /*------------------------------*/
+    border-radius: 5px;
+    font-size: 1.3rem;
+    width: 350px;
+    height: 30px;
+}
+
+/*Habillement du bouton envoyer et grandeur du mot envoyer.*/
+.bouton-envoyer {
+    color: #F0E5CD;
+    border-color: #F0E5CD;
+    background-color: #232A21;
+    /*--------------------------------*/
+    width: fit-content;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border-width: 2px;
+    height: 35px;
+    padding: 0 20px;
+}
+
+.info-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    /*-------------------------*/
+    padding: 20px 0;
+}
+
+/*Disposition des informations de contacts en rangée.*/
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    color: #FFEEDB;
+    /*-----------------------------*/
+    gap: 30px;
+}
+
+.contact h2 {
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+
+/* limitation de la largeur des textes adresse et courriel pour un retour à la ligne.*/
+.espacement {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    /*-------------------------*/
+    width: 200px;
+}
+
+.réseaux-sociaux {
+    display: flex;
+    flex-direction: row;
+    /*-------------------------*/
+    padding-top: 70px;
+    margin: auto;
+    gap: 30px;
+}
+
+/*Grandeur des images des réseaux sociaux.*/
+.réseaux-sociaux img {
+    height: 50px;
+    width: 50px;
+}
