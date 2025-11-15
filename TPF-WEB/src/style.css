@@ -1,0 +1,5 @@
+@import '/src/styles/base/global.css';
+@import '/src/styles/components/boutons.css'; /*Lien du css du bouton des pages web.*/
+@import '/src/styles/layouts/footer.css'; /*Lien css du pied de bas de page.*/
+@import '/src/styles/layouts/header.css'; /*Lien css de l'en-tête.*/
+@import '/src/styles/pages/accueil.css'; /*Lien css de la page d'accueil.*/
