@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     color: #FFEEDB;
+    margin: 0; /*Prend l'espace complet du site.*/
 }
 
 
