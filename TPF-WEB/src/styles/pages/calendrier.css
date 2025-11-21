@@ -1,5 +1,43 @@
 .calendrier{
-    width: 1000px;
-    height: 1000px;
+    width: 1920px;
+    height: 900px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cadre{
+    background-color: green;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     
 }
+
+.portes{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    
+}
+
+.portes:hover{
+    background-color: rgb(76, 0, 255);
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+.portes:active {
+    background-color: rgb(217, 255, 0);
+    height: 100px;
+    width: 100px;
+    margin: auto;
+
+}
+
+
+
+
