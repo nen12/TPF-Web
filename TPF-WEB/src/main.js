@@ -25,7 +25,7 @@ gsap.to(".titre", {
     scrollTrigger: {
         trigger: '.titre',
         start: "170% 250px", 
-        end: "400% 200px",
+        end: "300% 200px",
         scrub: 1, 
  
         toggleActions: "play none none reverse" 
