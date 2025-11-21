@@ -4,6 +4,13 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 import gsap from 'gsap'
 
+// Sélection et interaction avec le bouton menu burger
+const menuBurger = document.querySelector (".menu-burger")
+const navLinks = document.querySelector (".nav-links")
+    menuBurger.addEventListener('click',()=>
+    navLinks.classList.toggle('mobile-menu'));
+
+    
 //Importation du plugin scrolltrigger.
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
  
