@@ -3,3 +3,4 @@
 @import '/src/styles/layouts/footer.css'; /*Lien css du pied de bas de page.*/
 @import '/src/styles/layouts/header.css'; /*Lien css de l'en-tête.*/
 @import '/src/styles/pages/accueil.css'; /*Lien css de la page d'accueil.*/
+@import '/src/styles/pages/calendrier.css';
