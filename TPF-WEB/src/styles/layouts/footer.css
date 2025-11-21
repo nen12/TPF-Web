@@ -113,3 +113,43 @@ footer {
     height: 50px;
     width: 50px;
 }
+
+/*Version mobile de la page d'accueil.*/
+@media screen and (width <= 1000px) {
+
+    /*Taille des fonts dans la section courriel et alignement des contenues.*/
+    .email {
+        font-size: 1.1rem;
+        height: auto;
+        align-items: center;
+    }
+
+    /*Grandeur de la barre de saisie de texte.*/
+    .champ-texte {
+        width: 200px;
+        height: 20px;
+    }
+
+    /*Grandeur du bouton envoyer.*/
+    .bouton-envoyer {
+        width: fit-content;
+        height: 27px;
+        font-size: 1rem;
+        border-radius: 5px;
+        border-width: 2px;
+        padding: 0 20px;
+    }
+
+    /*Disposition des moyens de contact en colonne.*/
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /*Espacement des images de réseaux sociaux vers le bas.*/
+    .réseaux-sociaux {
+        padding-top: 40px;
+    }
+}
