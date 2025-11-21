@@ -11,10 +11,11 @@ header {
 
 /*Disposition des éléments de l'en-tête.*/
 .navbar {
-    position: fixed;
+    position: static;
     display: flex;
     justify-content: center; /*Distanciation des éléments.*/
     align-items: center;
+    background-color: rgba(21.2, 67.1, 46.3, 0.95);
     /*--------------------------------*/
     padding: 10px;
     width: 100%;
@@ -60,44 +61,48 @@ header {
     height: 35px;
 }
 
+/*Version mobile.*/
 @media screen and (width <= 1000px) {
 
-    .navbar .nav-links {
-        padding: 15px 0;
+    /*Cache l'en-tête par défaut pour ne pas l'afficher*/
+    .nav-links {
+        visibility: hidden;
     }
 
+    /*Position du logo dans le site web en version mobile.*/
     .navbar .logo {
         position: absolute;
         top: 15px;
-        left: 50px;
+        left: 15px;
         z-index: 3;
     }
 
+    /*Affichage du menu-burger dans l'en-tête.*/
     .navbar .menu-burger {
         display: block;
     }
 
-    .nav-links {
+    /*Affichage du menu quand le bouton est cliqué.*/
+    .nav-links.mobile-menu {
+        visibility: visible;
         display: flex;
         position: absolute;
         justify-content: center;
         align-items: center;
+        background-color: rgba(21.2, 67.1, 46.3, 0.5);
         /*--------------------------------*/
+        
         top: 0;
-        width: 100%;
-        height: 35vh;
+        width: 100%; 
     }
 
-    .nav-links .mobile-menu {
-        visibility: hidden;
-    }
-
+    /*Disposition des éléments de l'en-tête.*/
     .nav-links ul {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 
+    /*Espacement des éléments de l'en-tête.*/
     .navbar .nav-links ul li {
         margin: 25px 0;
     }
