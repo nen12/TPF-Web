@@ -1,44 +1,50 @@
-.calendrier{
+.calendrier {
     width: 1920px;
-    height: 900px; 
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 8rem;
 }
 .cadre{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
     background-color: green;
     height: 800px;
     width: 800px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    
+    gap: 10px;
+}
+
+.contenantPorte{
+    margin: 15px;
+    flex-basis: 25%-15px;
 }
 
 .portes{
-    background-color: red;
+    /* background-color: red; */
+    background-image: url("../../../Sapin.png");
+    background-size: cover;
     height: 100px;
     width: 100px;
-    margin: auto;
-    
 }
 
 .portes:hover{
-    background-color: rgb(76, 0, 255);
-    height: 150px;
-    width: 150px;
-    margin: auto;
+    scale: 1.1;
 }
 
 .portes:active {
-    background-color: rgb(217, 255, 0);
-    height: 100px;
-    width: 100px;
-    margin: auto;
-
+    background-image: url("../../../FondSapin.png");
+    
 }
 
+h2 {
+    z-index: 100000;
+}
 
-
-
+.contact-bas-page {
+    margin-top: 3rem;
+}

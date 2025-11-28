@@ -11,7 +11,7 @@ header {
 
 /*Disposition des éléments de l'en-tête.*/
 .navbar {
-    position: static;
+    position: fixed;
     display: flex;
     justify-content: center; /*Distanciation des éléments.*/
     align-items: center;
@@ -89,7 +89,7 @@ header {
         position: absolute;
         justify-content: center;
         align-items: center;
-        background-color: rgba(21.2, 67.1, 46.3, 0.5);
+        background-color: rgba(21.2, 67.1, 46.3, 0.95);
         /*--------------------------------*/
         
         top: 0;
