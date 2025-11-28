@@ -32,3 +32,33 @@
     height: 4rem;
     width: 9rem;
 }
+
+.cadeau-g {
+    position: absolute;
+    width: 350px; /*Largeur de l'image du cadeau gauche sur le site web.
+    Hauteur non nécessaire, puisqu'elle est de la même grandeur que la largeur.*/
+    top: 40px; /*Positionnement de l'image dans le haut du site web.*/
+    transform: rotate(25deg); /*Degré de rotation de l'image.*/
+    left: 30px; /*Positionnement vers la gauche.*/
+    z-index: -1;
+}
+
+.cadeau-d {
+    position: absolute;
+    height: 250px; /*Largeur de l'image du cadeau gauche sur le site web.
+    Hauteur non nécessaire, puisqu'elle est de la même grandeur que la largeur.*/
+    top: 80px; /*Positionnement de l'image dans le haut du site web.*/
+    transform: rotate(-25deg); /*Degré de rotation de l'image.*/
+    right: 300px; /*Positionnement vers la droite.*/
+    z-index: -1;
+}
+
+.gr-cadeaux {
+    position: absolute;
+    width: 400px; /*Largeur de l'image du cadeau gauche sur le site web.
+    Hauteur non nécessaire, puisqu'elle est de la même grandeur que la largeur.*/
+    bottom: 200px; /*Positionnement de l'image dans le bas du site web.*/
+    left: 300px; /*Positionnement vers la gauche.*/
+    z-index: -1;
+}
+
