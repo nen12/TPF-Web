@@ -1,21 +1,22 @@
 /*Habillement des éléments de la page.*/
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    list-style: none;
-    color: #FFEEDB;
-    margin: 0; /*Prend l'espace complet du site.*/
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: #FFEEDB;
+  margin: 0;
+  /*Prend l'espace complet du site.*/
 }
 
 
 
 /*Disposition global des éléments de la page.*/
 body {
-    background-color: #660000 ;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /*------------------------------------*/
+  background-color: #660000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*------------------------------------*/
 }
 
 /*Grandeur du label courriel et espacement de l'intérieur.*/
@@ -23,7 +24,7 @@ label {
   font-size: 1.4rem;
 }
 
-@media screen and (width <= 1000px){
+@media screen and (width <=1000px) {
   label {
     font-size: 1rem;
   }

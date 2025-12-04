@@ -16,7 +16,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     justify-items: center;
     text-align: center;
     color: #F0E5CD;
@@ -115,17 +115,19 @@ footer {
 }
 
 /*Version mobile de la page d'accueil.*/
-@media screen and (width <= 1000px) {
+@media screen and (width <=1000px) {
 
     /*Taille des fonts dans la section courriel et alignement des contenues.*/
     .email {
         display: flex;
-        align-items: center; /*Aligne les éléments à la même hauteur.*/
+        align-items: center;
+        /*Aligne les éléments à la même hauteur.*/
     }
 
     /*Grandeur de la barre de saisie de texte.*/
     .champ-texte {
-        width: 150px; /*Largeur du champ de saisie de texte.*/
+        width: 150px;
+        /*Largeur du champ de saisie de texte.*/
         height: 20px;
     }
 
@@ -134,10 +136,14 @@ footer {
         width: 70px;
         height: 27px;
         font-size: 0.8rem;
-        border-radius: 5px; /*Rondeur du bouton.*/
-        border-width: 2px; /*Largeur de bordure.*/
-        padding: 0 5px; /*Espacement dans le bouton.*/
-        margin-right: 5px; /*espacement vers la droite.*/
+        border-radius: 5px;
+        /*Rondeur du bouton.*/
+        border-width: 2px;
+        /*Largeur de bordure.*/
+        padding: 0 5px;
+        /*Espacement dans le bouton.*/
+        margin-right: 5px;
+        /*espacement vers la droite.*/
     }
 
     /*Disposition des moyens de contact en colonne.*/

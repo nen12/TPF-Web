@@ -6,7 +6,8 @@
     align-items: center;
     margin-top: 8rem;
 }
-.cadre{
+
+.cadre {
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -19,12 +20,12 @@
     gap: 10px;
 }
 
-.contenantPorte{
+.contenantPorte {
     margin: 15px;
     flex-basis: 25%-15px;
 }
 
-.portes{
+.portes {
     /* background-color: red; */
     background-image: url("../../../Sapin.png");
     background-size: cover;
@@ -32,13 +33,13 @@
     width: 100px;
 }
 
-.portes:hover{
+.portes:hover {
     scale: 1.1;
 }
 
 .portes:active {
     background-image: url("../../../FondSapin.png");
-    
+
 }
 
 h2 {

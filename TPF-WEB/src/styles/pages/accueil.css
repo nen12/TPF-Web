@@ -33,11 +33,15 @@
 /*Image du cadeau de gauche.*/
 .cadeau-gauche {
     position: absolute;
-    width: 350px; /*Largeur de l'image du cadeau gauche sur le site web.
+    width: 350px;
+    /*Largeur de l'image du cadeau gauche sur le site web.
     Hauteur non nécessaire, puisqu'elle est de la même grandeur que la largeur.*/
-    top: 80px; /*Positionnement de l'image dans le haut du site web.*/
-    transform: rotate(25deg); /*Degré de rotation de l'image.*/
-    left: 5vh; /*Positionnement vers la gauche.*/
+    top: 80px;
+    /*Positionnement de l'image dans le haut du site web.*/
+    transform: rotate(25deg);
+    /*Degré de rotation de l'image.*/
+    left: 5vh;
+    /*Positionnement vers la gauche.*/
     z-index: 0;
 }
 
@@ -50,11 +54,15 @@
 /*Image du cadeau de droite.*/
 .cadeau-droite {
     position: absolute;
-    height: 250px; /*Largeur de l'image du cadeau gauche sur le site web.
+    height: 250px;
+    /*Largeur de l'image du cadeau gauche sur le site web.
     Hauteur non nécessaire, puisqu'elle est de la même grandeur que la largeur.*/
-    top: 150px; /*Positionnement de l'image dans le haut du site web.*/
-    transform: rotate(-25deg); /*Degré de rotation de l'image.*/
-    right: 10vw; /*Positionnement vers la droite.*/
+    top: 150px;
+    /*Positionnement de l'image dans le haut du site web.*/
+    transform: rotate(-25deg);
+    /*Degré de rotation de l'image.*/
+    right: 10vw;
+    /*Positionnement vers la droite.*/
     z-index: 0;
 }
 
@@ -65,37 +73,46 @@
 }
 
 /*Image du cadeau en bas.*/
-    .gr-cadeaux {
-        position: absolute;
-        width: 400px; /*Largeur de l'image du cadeau gauche sur le site web.
+.gr-cadeaux {
+    position: absolute;
+    width: 400px;
+    /*Largeur de l'image du cadeau gauche sur le site web.
         Hauteur non nécessaire, puisqu'elle est de la même grandeur que la largeur.*/
-        bottom: 100px; /*Positionnement de l'image dans le bas du site web.*/
-        left: 30vh; /*Positionnement vers la gauche.*/
-        z-index: -1;
-    }
+    bottom: 100px;
+    /*Positionnement de l'image dans le bas du site web.*/
+    left: 30vh;
+    /*Positionnement vers la gauche.*/
+    z-index: -1;
+}
 
 /*Position de l'image de guirlande sur le site web.*/
 .guirlande {
     position: absolute;
-    width: 100%; /*Largeur de l'image sur le site web.*/
-    bottom: -500px; /*Positionnement de la guirlande vers le bas.*/
-    z-index: -2; 
+    width: 100%;
+    /*Largeur de l'image sur le site web.*/
+    bottom: -500px;
+    /*Positionnement de la guirlande vers le bas.*/
+    z-index: -2;
 }
 
 /*Grandeur et style du bouton dans la version ordinateur.*/
 .bouton {
-    background-color: #FFEEDB; /*Couleur de fond du bouton.*/
-    color: #660000; /*Couleur du texte.*/
+    background-color: #FFEEDB;
+    /*Couleur de fond du bouton.*/
+    color: #660000;
+    /*Couleur du texte.*/
     /*---------------------------------*/
     border-radius: 10px;
-    font-size: 1.3rem; /*Grandeur du texte.*/
+    font-size: 1.3rem;
+    /*Grandeur du texte.*/
     height: 4rem;
     width: 9rem;
-    margin-bottom: 650px; /*Espacement entre le bouton et du pied de bas de page pour afficher 
+    margin-bottom: 650px;
+    /*Espacement entre le bouton et du pied de bas de page pour afficher 
     l'image de guirlande.*/
 }
 
-@media screen and (width <= 800px) {
+@media screen and (width <=800px) {
 
     /*Grosseur du texte 24 faits. sur le site web.*/
     .Texte h1 {
@@ -113,41 +130,54 @@
     /*Image du cadeau de gauche.*/
     .cadeau-gauche {
         position: absolute;
-        max-width: 150px; /*Largeur de l'image du cadeau gauche sur le site web.
+        max-width: 150px;
+        /*Largeur de l'image du cadeau gauche sur le site web.
         Hauteur non nécessaire, puisqu'elle est de la même grandeur que la largeur.*/
-        top: 80px; /*Positionnement de l'image dans le haut du site web.*/
-        transform: rotate(25deg); /*Degré de rotation de l'image.*/
-        left: 1vh; /*Positionnement vers la gauche.*/
+        top: 80px;
+        /*Positionnement de l'image dans le haut du site web.*/
+        transform: rotate(25deg);
+        /*Degré de rotation de l'image.*/
+        left: 1vh;
+        /*Positionnement vers la gauche.*/
         z-index: 0;
     }
 
     /*Image du cadeau de droite.*/
     .cadeau-droite {
         position: absolute;
-        height: 100px; /*Largeur de l'image du cadeau gauche sur le site web.
+        height: 100px;
+        /*Largeur de l'image du cadeau gauche sur le site web.
         Hauteur non nécessaire, puisqu'elle est de la même grandeur que la largeur.*/
-        top: 150px; /*Positionnement de l'image dans le haut du site web.*/
-        transform: rotate(-25deg); /*Degré de rotation de l'image.*/
-        right: 10vw; /*Positionnement vers la droite.*/
+        top: 150px;
+        /*Positionnement de l'image dans le haut du site web.*/
+        transform: rotate(-25deg);
+        /*Degré de rotation de l'image.*/
+        right: 10vw;
+        /*Positionnement vers la droite.*/
         z-index: 0;
-    } 
+    }
 
     /*Image du cadeau en bas.*/
     .gr-cadeaux {
         position: absolute;
-        width: 100px; /*Largeur de l'image du cadeau gauche sur le site web.
+        width: 100px;
+        /*Largeur de l'image du cadeau gauche sur le site web.
         Hauteur non nécessaire, puisqu'elle est de la même grandeur que la largeur.*/
-        bottom: 270px; /*Positionnement de l'image dans le bas du site web.*/
-        left: 1vh; /*Positionnement vers la gauche.*/
+        bottom: 270px;
+        /*Positionnement de l'image dans le bas du site web.*/
+        left: 1vh;
+        /*Positionnement vers la gauche.*/
         z-index: -1;
     }
 
     /*Positionnement de l'image sur le site.*/
     .guirlande {
         position: absolute;
-        width: 100%; /*Largeur de l'image.*/
-        bottom: 100px; /*Distance de l'image sur le site à partir du bas.*/
-        z-index: -2; 
+        width: 100%;
+        /*Largeur de l'image.*/
+        bottom: 100px;
+        /*Distance de l'image sur le site à partir du bas.*/
+        z-index: -2;
     }
 
     /*Grandeur du bouton et du texte dans la version mobile.*/
@@ -159,16 +189,19 @@
         font-size: 1rem;
         height: 2.5rem;
         width: 5rem;
-        margin-bottom: 100px; /*Espacement entre le bouton et le pied de bas de page sur le site.*/
+        margin-bottom: 100px;
+        /*Espacement entre le bouton et le pied de bas de page sur le site.*/
     }
 }
 
 #snow {
     position: fixed;
-    top: 0; 
-    left: 0; 
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
-    pointer-events: none; /* la neige ne bloque pas les clics */
-    z-index: 2;        /* passe devant tout */
+    pointer-events: none;
+    /* la neige ne bloque pas les clics */
+    z-index: 2;
+    /* passe devant tout */
 }

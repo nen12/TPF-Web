@@ -1,4 +1,3 @@
-
 /*En-tête du site web.*/
 header {
     display: flex;
@@ -13,7 +12,8 @@ header {
 .navbar {
     position: fixed;
     display: flex;
-    justify-content: center; /*Distanciation des éléments.*/
+    justify-content: center;
+    /*Distanciation des éléments.*/
     align-items: center;
     background-color: rgba(21.2, 67.1, 46.3, 0.95);
     /*--------------------------------*/
@@ -23,7 +23,7 @@ header {
 }
 
 /*Taille des titres de l'en-tête.*/
-.navbar a{
+.navbar a {
     font-size: 1.8rem;
 }
 
@@ -35,7 +35,8 @@ header {
 
 .navbar .nav-links ul {
     display: flex;
-    margin: 0 300px; /*Distanciation entre les éléments et le logo.*/
+    margin: 0 300px;
+    /*Distanciation entre les éléments et le logo.*/
 }
 
 /*Espacement des éléments de l'en-tête.*/
@@ -53,7 +54,7 @@ header {
 .navbar .menu-burger {
     position: fixed;
     background: none;
-    display:  none;
+    display: none;
     /*--------------------------------*/
     top: 20px;
     right: 20px;
@@ -62,7 +63,7 @@ header {
 }
 
 /*Version mobile.*/
-@media screen and (width <= 1000px) {
+@media screen and (width <=1000px) {
 
     /*Cache l'en-tête par défaut pour ne pas l'afficher*/
     .nav-links {
@@ -92,7 +93,7 @@ header {
         background-color: rgba(21.2, 67.1, 46.3, 0.95);
         /*--------------------------------*/
         top: 0;
-        width: 100%; 
+        width: 100%;
     }
 
     /*Disposition des éléments de l'en-tête.*/
