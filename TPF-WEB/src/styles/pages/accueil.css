@@ -4,6 +4,7 @@
     src: url("src/fonts/Home Christmas.otf");
 }
 
+/*Disposition des textes sur la page d'Accueil.*/
 .Texte {
     display: flex;
     flex-direction: column;
@@ -40,7 +41,7 @@
     z-index: 0;
 }
 
-
+/*Permet de changer la supposition de l'image quand la souris est sur l'élément.*/
 .cadeau-gauche:hover {
     position: absolute;
     z-index: 1;
@@ -57,56 +58,59 @@
     z-index: 0;
 }
 
+/*Permet de changer la supposition de l'image quand la souris est sur l'élément.*/
 .cadeau-droite:hover {
     position: absolute;
     z-index: 1;
 }
 
 /*Image du cadeau en bas.*/
-
+    .gr-cadeaux {
+        position: absolute;
+        width: 400px; /*Largeur de l'image du cadeau gauche sur le site web.
+        Hauteur non nécessaire, puisqu'elle est de la même grandeur que la largeur.*/
+        bottom: 100px; /*Positionnement de l'image dans le bas du site web.*/
+        left: 30vh; /*Positionnement vers la gauche.*/
+        z-index: -1;
+    }
 
 /*Position de l'image de guirlande sur le site web.*/
 .guirlande {
     position: absolute;
-    width: 100%;
-    bottom: -500px;
+    width: 100%; /*Largeur de l'image sur le site web.*/
+    bottom: -500px; /*Positionnement de la guirlande vers le bas.*/
     z-index: -2; 
 }
 
+/*Grandeur et style du bouton dans la version ordinateur.*/
 .bouton {
-    background-color: #FFEEDB;
-    color: #660000;
+    background-color: #FFEEDB; /*Couleur de fond du bouton.*/
+    color: #660000; /*Couleur du texte.*/
     /*---------------------------------*/
     border-radius: 10px;
-    font-size: 1.3rem;
+    font-size: 1.3rem; /*Grandeur du texte.*/
     height: 4rem;
     width: 9rem;
-    margin-bottom: 500px;
+    margin-bottom: 650px; /*Espacement entre le bouton et du pied de bas de page pour afficher 
+    l'image de guirlande.*/
 }
 
 @media screen and (width <= 800px) {
 
-    .Texte {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-        /*---------------------------------*/
-        padding-bottom: 30px;
-    }
-
+    /*Grosseur du texte 24 faits. sur le site web.*/
     .Texte h1 {
         position: relative;
         font-size: 4.5rem;
         z-index: 1;
     }
 
-/*Grosseur du texte Joyeux noël sur le site web.*/
+    /*Grosseur du texte Joyeux noël sur le site web.*/
     .Texte h2 {
         font-size: 2rem;
         margin-bottom: 50px;
     }
 
+    /*Image du cadeau de gauche.*/
     .cadeau-gauche {
         position: absolute;
         max-width: 150px; /*Largeur de l'image du cadeau gauche sur le site web.
@@ -117,13 +121,7 @@
         z-index: 0;
     }
 
-
-    .cadeau-gauche:hover {
-        position: absolute;
-        z-index: 1;
-    }
-
-/*Image du cadeau de droite.*/
+    /*Image du cadeau de droite.*/
     .cadeau-droite {
         position: absolute;
         height: 100px; /*Largeur de l'image du cadeau gauche sur le site web.
@@ -132,14 +130,9 @@
         transform: rotate(-25deg); /*Degré de rotation de l'image.*/
         right: 10vw; /*Positionnement vers la droite.*/
         z-index: 0;
-    }
+    } 
 
-    .cadeau-droite:hover {
-        position: absolute;
-        z-index: 1;
-    }   
-
-/*Image du cadeau en bas.*/
+    /*Image du cadeau en bas.*/
     .gr-cadeaux {
         position: absolute;
         width: 100px; /*Largeur de l'image du cadeau gauche sur le site web.
@@ -149,21 +142,23 @@
         z-index: -1;
     }
 
-        .bouton {
-            background-color: #FFEEDB;
-            color: #660000;
-            /*---------------------------------*/
-            border-radius: 10px;
-            font-size: 1.3rem;
-            height: 4rem;
-            width: 9rem;
-            margin-bottom: 100px;
-        }
-
+    /*Positionnement de l'image sur le site.*/
     .guirlande {
         position: absolute;
-        width: 100%;
-        bottom: 100px;
+        width: 100%; /*Largeur de l'image.*/
+        bottom: 100px; /*Distance de l'image sur le site à partir du bas.*/
         z-index: -2; 
+    }
+
+    /*Grandeur du bouton et du texte dans la version mobile.*/
+    .bouton {
+        background-color: #FFEEDB;
+        color: #660000;
+        /*---------------------------------*/
+        border-radius: 10px;
+        font-size: 1rem;
+        height: 2.5rem;
+        width: 5rem;
+        margin-bottom: 100px; /*Espacement entre le bouton et le pied de bas de page sur le site.*/
     }
 }
