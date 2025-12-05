@@ -1,5 +1,5 @@
 import './style.css'
-
+//Fait par Jorenso
 // Animation de neige dans la page du site web.
 const canevas = document.getElementById("snow");
 const ctx = canevas.getContext("2d");
@@ -67,3 +67,4 @@ window.addEventListener("resize", () => {
     canevas.width = window.innerWidth;
     canevas.height = window.innerHeight;
 });
+//Fait par Jorenso fin.
