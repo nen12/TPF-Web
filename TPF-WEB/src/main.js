@@ -44,6 +44,8 @@ gsap.to(".titre", {
     opacity: 0,
 });
 
+
+
 //Fait par Jorenso.
 //Animation en translation verticale en boucle de l'image du cadeau de gauche.
 gsap.to(".cadeau-gauche", {
@@ -141,3 +143,7 @@ window.addEventListener("resize", () => {
     canevas.height = window.innerHeight;
 });
 //Fait par Jorenso fin.
+
+
+
+

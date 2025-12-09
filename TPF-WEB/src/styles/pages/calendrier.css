@@ -49,3 +49,109 @@ h2 {
 .contact-bas-page {
     margin-top: 3rem;
 }
+
+
+/* --------------Edgar;-----------------------*/
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 100000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    animation: popup 0.3s ease;
+}
+
+
+.close-modal {
+    cursor: pointer;
+    font-size: 26px;
+    float: right;
+}
+
+
+.pere-noel {
+    position: fixed;
+    top: 50px;
+    left: -200px;
+    width: 150px;
+    z-index: -10;
+}
+
+.penguin-footer {
+    position: relative;
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+}
+
+.pingouin {
+    position: absolute;
+    bottom: 0;
+    left: -200px;
+    width: 120px;
+    transform: rotate(-8deg);
+}
+
+
+@media (max-width: 800px) {
+
+    .calendrier {
+        width: 100%;
+        height: auto;
+        margin-top: 3rem;
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    .cadre {
+        width: 100%;
+        height: auto;
+        gap: 8px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .contenantPorte {
+        margin: 8px;
+        flex-basis: calc(25% - 8px);
+    }
+
+    /* Si tu veux afficher 4 portes par ligne */
+    .portes {
+        width: 70px;
+        height: 70px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .contact-bas-page {
+        margin-top: 2rem;
+    }
+
+    .pere-noel img {
+        position: fixed;
+        top: 50px;
+        left: -200px;
+        width: 150px;
+        z-index: -10;
+        height: 200px;
+        width: auto;
+    }
+
+}
