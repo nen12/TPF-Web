@@ -1,6 +1,7 @@
 import './style.css'
 import gsap from "gsap"
 
+
 //Fait par Jorenso
 // Animation de neige dans la page du site web.
 const canevas = document.getElementById("snow");
@@ -79,7 +80,7 @@ window.addEventListener("resize", () => {
 
 
 
-//Edgar
+//----------Edgar--------------------
 
 //Animation pere noel
 window.addEventListener("load", () => {
@@ -121,3 +122,13 @@ gsap.to(".pingouin", {
     gsap.set(".pingouin", { rotation: gsap.utils.random(-10, -5) });
   }
 });
+
+
+import Calendrier from "./ObjetJava/Calendrier.js";
+
+window.addEventListener("DOMContentLoaded", () => {
+  const cadre = document.querySelector(".cadre");
+  new Calendrier(cadre);
+});
+
+
