@@ -3,6 +3,10 @@ footer {
     background-color: #36AB76;
     width: 100vw;
     height: fit-content;
+
+    p{
+        color: #FFEEDB;
+    }
 }
 
 .bas-page {
