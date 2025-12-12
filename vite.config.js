@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-    base: '/TPF-WEB/',
+    base: '/TPF-Web/',
     build: {
         emptyOutDir: true,
             rollupOptions: {
