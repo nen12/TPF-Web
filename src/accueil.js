@@ -2,6 +2,14 @@ import './style.css'
 import gsap from "gsap"
 
 
+
+//Fait par Jorenso.
+// Sélection et interaction avec le bouton menu burger
+const menuBurger = document.querySelector(".menu-burger")
+const navLinks = document.querySelector(".nav-links")
+menuBurger.addEventListener('click', () =>
+    navLinks.classList.toggle('mobile-menu'));
+
 //Fait par Jorenso
 // Animation de neige dans la page du site web.
 const canevas = document.getElementById("snow");
