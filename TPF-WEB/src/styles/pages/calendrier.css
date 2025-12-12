@@ -28,7 +28,7 @@
 
 .portes {
     /* background-color: red; */
-    background-image: url("../../../Sapin.png");
+    background-image: url("../Sapin.png");
     background-size: cover;
     height: 6.25rem;
     width: 6.25rem;
@@ -39,8 +39,7 @@
 }
 
 .portes:active {
-    background-image: url("../../../FondSapin.png");
-
+    background-image: url("../FondSapin.png");
 }
 
 h2 {
